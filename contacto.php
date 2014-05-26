@@ -41,17 +41,14 @@ if(isset($_POST) && !empty($_POST)){
 							<a href="somos.html" title="Somos">SOMOS</a>
 						</li>
 						<li class="item-menu">
-							<a href="obras.html" title="Obras y Montajes">OBRAS Y MONTAJES</a>
+							<a href="obras.html" title="Productos">PRODUCTOS</a>
 						</li>
 						<li class="item-menu">
-							<a href="arquitectura.html" title="Arq. Comercial">ARQ. COMERCIAL</a>
-						</li>
-						<li class="item-menu">
-							<a href="contacto.php" title="Contacto" class="active">CONTACTO</a>
+							<a href="contacto.php" title="Contacto">CONTACTO</a>
 						</li>
 						<li id="logo-home">
 							<a href="index.html" title="RGD - Grupo Cremonesi">
-								<img class="logos" src="images/home.png" alt="Logo RGD" title="RGD - Grupo Cremonesi">
+								<img class="logos" src="images/home.png" alt="Logo RGD" title="Cremonesi">
 							</a>
 						</li>
 					</ul>
@@ -79,6 +76,15 @@ if(isset($_POST) && !empty($_POST)){
 											<td>
 												<label class="form-text-mail">Mail <br /></label> 
 												<input required type="email" class="input-text" name="mail" id="consulta-mail" />
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<label id="radio-protones"><input checked type="radio" name="tipo" value="Protones Automáticos">Protones Automáticos</label>
+												<label id="radio-particular"><input type="radio" name="tipo" value="Particular">Particular<br></label>
+												<label id="radio-Persianas"><input type="radio" name="tipo" value="Persianas Metálicas">Persianas Metálicas</label>
+												<label id="radio-empresa"><input type="radio" name="tipo" value="Empresa">Empresa<br></label>
+												<label id="radio-barrera"><input type="radio" name="tipo" value="Barrera de Tránsito">Barrera de Tránsito</label>
 											</td>
 										</tr>
 										<tr>

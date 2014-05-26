@@ -366,7 +366,7 @@ a{
 }
 #form-consulta{
 	width: 390px;
-	height: 188px;
+	height: 135px;
 	margin-left: 0;
 	resize: none;
 	border: thin #cccccc solid;
@@ -378,6 +378,12 @@ a{
 .wrapper-buttons{
 	width: 200px !important;
 	margin-left: 194px !important;
+}
+#radio-particular{
+	padding-left: 30px;
+}
+#radio-empresa{
+	padding-left: 42px;
 }
 .btn-contacto{
 	color:#FFF;
