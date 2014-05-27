@@ -1,9 +1,10 @@
 <?php
 if(isset($_POST) && !empty($_POST)){
-	$para = 'info@massanet.com.ar';
+	$para = 'mgrusconi@gmail.com';
 	$titulo = 'Consulta Web - RGD';
 	$mensaje = 'Nombre: ' . $_POST['nombre'] . "\r\n";
 	$mensaje .= 'Telefono: ' . $_POST['telefono'] . "\r\n";
+	$mensaje .= 'Contulta por: ' . $_POST['tipo'] . "\r\n";
 	$mensaje .= 'Mail: ' . $_POST['mail'] . "\r\n";
 	$mensaje .= 'Consulta: ' . $_POST['consulta'];
 	$cabeceras = 'From: info@rgdobrasymontajes.com.ar' . "\r\n" .
@@ -14,7 +15,7 @@ if(isset($_POST) && !empty($_POST)){
 ?>
 <html>
 	<head>
-		<title>CONTACTO | RGD - Grupo Cremonesi</title>
+		<title>CONTACTO | CPA - Cremonesi</title>
 		<link href="css/estilos.css" type="text/css" rel="stylesheet">
 		<link href="css/fuentes.css" type="text/css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
@@ -41,10 +42,10 @@ if(isset($_POST) && !empty($_POST)){
 							<a href="somos.html" title="Somos">SOMOS</a>
 						</li>
 						<li class="item-menu">
-							<a href="obras.html" title="Productos">PRODUCTOS</a>
+							<a href="portones.html" title="Productos">PRODUCTOS</a>
 						</li>
 						<li class="item-menu">
-							<a href="contacto.php" title="Contacto">CONTACTO</a>
+							<a href="contacto.php" title="Contacto" class="active">CONTACTO</a>
 						</li>
 						<li id="logo-home">
 							<a href="index.html" title="RGD - Grupo Cremonesi">
@@ -107,7 +108,7 @@ if(isset($_POST) && !empty($_POST)){
 								Av. Gaona 4526 (1702) Ciudadela.<br />
 								Bs. As. Argentina <br />
 								Tel./Fax: (54-11) 4653-5444 / 4052 <br />
-								<a href="mailto:info@rgdobrasymontajes.com.ar" target="_top">info@rgdobrasymontajes.com.ar</a>
+								<a href="mailto:info@cremonesi.com.ar" target="_top">info@cremonesi.com.ar</a>
 							</p>
 							<iframe 
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.771924459494!2d-58.553104399999995!3d-34.635203499999946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc80795cdd63d%3A0xa0750be82377e527!2sAv+Gaona+4526!5e0!3m2!1ses!2sar!4v1398023123431" 
@@ -126,11 +127,7 @@ if(isset($_POST) && !empty($_POST)){
 						</li>
 						<li>&bull;</li>
 						<li class="footer-item-menu">
-							<a href="obras.html" title="Obras y Montajes">Obras y Montajes</a>
-						</li>
-						<li>&bull;</li>
-						<li class="footer-item-menu">
-							<a href="arquitectura.html" title="Arq. Comercial">Arq. Comercial</a>
+							<a href="portones.html" title="Productos">Productos</a>
 						</li>
 						<li>&bull;</li>
 						<li class="footer-item-menu">
@@ -142,7 +139,7 @@ if(isset($_POST) && !empty($_POST)){
 					</div>
 					<img id="logo-grupo" src="images/logo-grupo.png" alt="Logo Grupo Cremonesi" title="Logo Grupo Cremonesi">
 					<p>
-						Av. Gaona 4526 (1702) - Ciudadela. Bs. As. Argentina - Tel./Fax: (54-11) 4653-5444 / 4052 - info@rgdobrasymontajes.com.ar<br />
+						Av. Gaona 4526 (1702) - Ciudadela. Bs. As. Argentina - Tel./Fax: (54-11) 4653-5444 / 4052 - info@cremonesi.com.ar<br />
 						Copyright © 2014 . Todos los derechos reservados.
 					</p>
 					<img id="logo-cpa" src="images/logo-cpa.png" alt="Logo Grupo Cremonesi" title="Logo Grupo Cremonesi">

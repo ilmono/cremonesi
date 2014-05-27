@@ -122,8 +122,8 @@ a{
 }
 #footer-menu{
 	position: relative;
-	left: 175px;
-	width: 500px;
+	left: 265px;
+	width: 300px;
 	height: 31px;
 	list-style-type: none;
 	padding-top: 31px;
@@ -211,9 +211,13 @@ a{
 	top: -100px;
 }
 /* ESTILO DEL HOME */
-/* ESTILO DE OBRAS Y ARQUITECTURA*/
+/* ESTILO DE PRODUCTOS*/
 #content-page{
 	text-align: left;
+}
+.content-page-productos{
+	position: relative;
+	top: -14px;
 }
 #content-page .title{
 	background: url(../images/bck-titulos.png) no-repeat left top;
@@ -221,69 +225,185 @@ a{
 	margin-left: 26px;
 	text-align: left;
 }
+#content-page .title-productos{
+	background: url(../images/bck-productos.png) no-repeat left top !important;
+}
 #content-page .title h1{
 	font-family: museo-slab;
 	font-weight: normal;
 	color: #FFF;
-	padding-top: 31px;
+	padding-top: 25px;
 	padding-left: 26px;
 	margin-top: 4px;
-	font-size: 22px;
+	font-size: 24px;
+	width: 150px;
+	float: left;
+}
+#content-page .title ul li{
+	float: right;
+	width: 218px;
+	height: 107px;
+	display: inline-block;
+	text-indent: -999999px;
+}
+.li-portones{
+	background: url(../images/bck-portones.png) no-repeat left top;
+}
+.li-cortinas{
+	background: url(../images/bck-cortinas.png) no-repeat left top;
+}
+.li-barrera{
+	background: url(../images/bck-barreras.png) no-repeat left top;
+	padding-right: 26px;
+}
+.li-portones:hover{
+	background: url(../images/bck-portones-on.png) no-repeat left top;
+}
+.li-cortinas:hover{
+	background: url(../images/bck-cortinas-on.png) no-repeat left top;
+}
+.li-barrera:hover{
+	background: url(../images/bck-barreras-on.png) no-repeat left top;
+	padding-right: 26px;
+}
+
+.li-portones-active{
+	background: url(../images/bck-portones-active.png) no-repeat left top;
+}
+.li-cortinas-active{
+	background: url(../images/bck-cortinas-active.png) no-repeat left top;
+}
+.li-barrera-active{
+	background: url(../images/bck-barreras-active.png) no-repeat left top;
+	padding-right: 26px;
 }
 .contenido{
 	height: 490px;
 }
-.contenido-obras{
-	height:520px !important;
-}
-.contenido-arquitectura{
-	height:517px !important;
+.contenido-portones{
+	height:510px !important;
 }
 .contenido div{
 	float: left;
 	width: 400px;
-	margin: 2px 0 0 50px;
+	margin-top: 2px;
 }
-#content-left{
-	
+.contenido-productos{
+	padding-top: 10px;
 }
-#content-left h2{
-	font-weight: normal;
-	color: #0094d2;
-	margin: 0;
-	font-size: 24;
+#content-1{
+	padding-left: 26px;
+	width: 157px;
+	/*height: 100px;*/
 }
-.subtitle-obras{
-	margin-top: 10px !important;
+#content-2{
+	border-left: 1px solid #4c5b52;
+	width: 404px;
 }
-.subtitle-arquitectura{
-	margin-top: 7px !important;
+#content-3{
+	border-left: 1px solid #4c5b52;
+	width: 311px;
+	padding-left: 19px;
 }
-#content-left .destacado{
-	background: url(../images/bck-destacado.png) no-repeat left top;
-	height: 110px;
-	width: 450px;
-	position: relative;
-	left: -83px;
-	margin-bottom: 20px;
+#content-barrera-1{
+	width: 410px;
 }
-#nav{
+.nav-productos{
 	list-style-type: none;
-	margin: 20px 0;
+	margin: 0;
 	padding: 0;
-}
-.acordion-text{
-	margin: 5px 0 22px 13px !important;
+	font-family: museo-sans-b;
 	font-size: 14;
 }
-.accordion-item{
-	color: #9aa69f;
-	font-weight: bold;
+.nav-productos li{
+	margin-bottom: 19px;
+	padding-left: 20px;
+}
+.nav-productos li:hover{
 	cursor: pointer;
 }
-#nav .active{
-	color: #000;
+#nav-portones{
+	color: #94bde5;
 }
+#nav-portones li:hover{
+	color: #0194d3;
+}
+#nav-portones .active{
+	background: url(../images/triangulo-azul.png) no-repeat left top;
+	background-position-y: center;
+	color: #0194d3;
+}
+#nav-portones li.desarrollos-especiales,
+#nav-portones li.desarrollos-especiales:hover{
+	background: url(../images/triangulo-verde.png) no-repeat left top;
+	background-position-y: center;
+	color: #66b14f;
+}
+#nav-cortinas{
+	color: #efc18a;
+}
+#nav-cortinas li:hover{
+	color: #e08d28;
+}
+#nav-cortinas .active{
+	background: url(../images/triangulo-naranja.png) no-repeat left top;
+	background-position-y: center;
+	color: #e08d28;
+}
+.cortina-modelo-plana,
+.porton-sistema-corredizo{
+	padding-left: 26px
+}
+.cortinas-par,
+.corredizos-par-1,
+.corredizos-par-2{
+	font-family: arial;
+	color: #4c5a52;
+	padding-left: 43px;
+	width: 326px;
+}
+.corredizos-par-1{
+	margin-top: 34px;
+	font-size: 12;
+	font-weight: normal;
+
+}
+.corredizos-par-2{
+	margin-bottom: 45px;
+	font-size: 13;
+	font-weight: bold;
+}
+.corredizos-par-2 span{
+	color: #0194d3;
+}
+.cortinas-par{
+	margin-bottom: 14px;
+	font-size: 14;
+	font-weight: bold;
+}
+.barrera-par{
+	margin: 22px 0 34px 44px;
+	font-family: arial;
+	color: #4c5a52;
+	width: 326px;
+}
+.iconos-productos{
+	padding-left: 37px;
+}
+.barrera-modelo-recta-icon{
+	margin-left: 26px;
+}
+.container-min-img{
+	cursor: pointer;
+	padding-left: 7px;
+	padding-bottom: 9px;
+	width: 90px !important;
+}
+.container-min-img-last{
+	padding-bottom: 0px !important;
+}
+/* ESTILO DE PRODUCTOS*/
+/* ESTILO DE SOMOS*/
 #content-left .destacado p{
 	color: #FFF;
 	margin-left: 80px;
@@ -296,27 +416,25 @@ a{
 #content-right img{
 	margin-bottom: 80px;
 }
-#contenido-arquitectura{
-	margin: 12px 0 52px 0;
-}
-.iconos-arquitectura{
-	margin-top: 12px;
-}
-#cycler{
-	position:relative;
-	margin: 0 !important;
-}
-#cycler img{
-	position:absolute;
-	z-index:1;
-}
-#cycler img.active{
-	z-index:3;
-}
-/* ESTILO DE OBRAS Y ARQUITECTURA*/
-/* ESTILO DE SOMOS*/
 .contenido-somos{
  height: 530px !important;
+}
+#content-left{
+	margin: 2px 0 0 50px;
+}
+#content-left h2{
+	font-weight: normal;
+	color: #0094d2;
+	margin: 0;
+	font-size: 24;
+}
+#content-left .destacado{
+	background: url(../images/bck-destacado.png) no-repeat left top;
+	height: 110px;
+	width: 450px;
+	position: relative;
+	left: -83px;
+	margin-bottom: 20px;
 }
 .subtitle-somos{
 	margin-top: 6px !important;
@@ -332,6 +450,7 @@ a{
 }
 #clientes{
 	margin-top: 21px;
+	margin-left: 50px;
 	width: 800px !important;
 }
 .img-clientes{
