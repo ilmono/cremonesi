@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST) && !empty($_POST)){
-	$para = 'mgrusconi@gmail.com';
+	$para = 'info@massanet.com.ar';
 	$titulo = 'Consulta Web - RGD';
 	$mensaje = 'Nombre: ' . $_POST['nombre'] . "\r\n";
 	$mensaje .= 'Telefono: ' . $_POST['telefono'] . "\r\n";
@@ -81,11 +81,11 @@ if(isset($_POST) && !empty($_POST)){
 										</tr>
 										<tr>
 											<td colspan="2">
-												<label id="radio-protones"><input checked type="radio" name="tipo" value="Protones Automáticos">Protones Automáticos</label>
+												<label id="radio-protones"><input checked type="radio" name="tipo" value="Protones Automáticos">Protones Autom&aacute;ticos</label>
 												<label id="radio-particular"><input type="radio" name="tipo" value="Particular">Particular<br></label>
-												<label id="radio-Persianas"><input type="radio" name="tipo" value="Persianas Metálicas">Persianas Metálicas</label>
+												<label id="radio-Persianas"><input type="radio" name="tipo" value="Persianas Metálicas">Persianas Met&aacute;licas</label>
 												<label id="radio-empresa"><input type="radio" name="tipo" value="Empresa">Empresa<br></label>
-												<label id="radio-barrera"><input type="radio" name="tipo" value="Barrera de Tránsito">Barrera de Tránsito</label>
+												<label id="radio-barrera"><input type="radio" name="tipo" value="Barrera de Tránsito">Barrera de Tr&aacute;nsito</label>
 											</td>
 										</tr>
 										<tr>

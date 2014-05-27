@@ -179,7 +179,7 @@ a{
 }
 .notice-wrapper img{
 	position: relative;
-	top: -80px;
+	top: -80px !important;
 	left: 18px;
 }
 .notice{
