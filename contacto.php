@@ -18,14 +18,12 @@ if(isset($_POST) && !empty($_POST)){
 		<title>CONTACTO | CPA - Cremonesi</title>
 		<link href="css/estilos.css" type="text/css" rel="stylesheet">
 		<link href="css/fuentes.css" type="text/css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 		<link rel="shortcut icon" href="favicon.ico" />
 
 		<script type='text/javascript' src='js/jquery-1.11.0.min.js'></script>
 		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/highlight.min.js"></script>
 		<script type='text/javascript' src='js/general.js'></script>
-		<script type="text/javascript" src="js/slick.js"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	</head>
 	<body>
@@ -81,11 +79,11 @@ if(isset($_POST) && !empty($_POST)){
 										</tr>
 										<tr>
 											<td colspan="2">
-												<label id="radio-protones"><input checked type="radio" name="tipo" value="Protones Automáticos">Protones Autom&aacute;ticos</label>
+												<label id="radio-protones"><input checked type="radio" name="tipo" value="Protones Autom&aacute;ticos">Protones Autom&aacute;ticos</label>
 												<label id="radio-particular"><input type="radio" name="tipo" value="Particular">Particular<br></label>
-												<label id="radio-Persianas"><input type="radio" name="tipo" value="Persianas Metálicas">Persianas Met&aacute;licas</label>
+												<label id="radio-Persianas"><input type="radio" name="tipo" value="Persianas Met&aacute;licas">Persianas Met&aacute;licas</label>
 												<label id="radio-empresa"><input type="radio" name="tipo" value="Empresa">Empresa<br></label>
-												<label id="radio-barrera"><input type="radio" name="tipo" value="Barrera de Tránsito">Barrera de Tr&aacute;nsito</label>
+												<label id="radio-barrera"><input type="radio" name="tipo" value="Barrera de Tr&aacute;nsito">Barrera de Tr&aacute;nsito</label>
 											</td>
 										</tr>
 										<tr>

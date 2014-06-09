@@ -1,44 +1,39 @@
 (function ($) {
 
 	$(document).ready(function() {
-		
-		$('.acordion-text').hide();
-		$('#nav > li > a').click(function(){
-			if ($(this).attr('class') != 'active'){
-				$('#nav li div').slideUp();
-				$(this).next().slideToggle();
-				$('#nav li a').removeClass('active');
-				$(this).addClass('active');
+
+		$('.popup-gallery').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+				preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+			},
+			image: {
+				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
 			}
 		});
-		$('#acordion-item-1').click();
-
-	    $('.fade').slick({
-	        dots: true,
-	        infinite: true,
-	        speed: 500,
-	        fade: true,
-	        autoplay: true,
-	        autoplaySpeed: 2000,
-	        slide: 'div',
-	        cssEase: 'linear'
-	    });
-
-		setInterval(function(){
-			var $active = $('#cycler .active');
-			var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
-			$next.css('z-index',2);
-			$active.fadeOut(1500,function(){
-				$active.css('z-index',1).show().removeClass('active');
-				$next.css('z-index',3).addClass('active');
-			});
-		}, 4000);
 
 		$('#btn-borrar').click(function(){
 			$('.input-text').val('');
 			$('#form-consulta').val('');
 			return false;
 		});
-	});
 
+		$('.porton-sistema-corredizo').show();
+		$('.cortinas-plana').show();
+
+		$('.link-contenido').click(function(){
+			$('.link-contenido').removeClass('active');
+			$('.tipo-porton').hide();
+			$('.tipo-cortina').hide();
+			$('.corredizos-par-1').hide();
+			$(this).addClass('active');
+			$('.' + $(this).attr('id')).show();
+		});
+	});
+	
 })(jQuery);

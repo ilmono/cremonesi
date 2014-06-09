@@ -350,9 +350,14 @@ a{
 	background-position-y: center;
 	color: #e08d28;
 }
-.cortina-modelo-plana,
-.porton-sistema-corredizo{
-	padding-left: 26px
+.tipo-cortina,
+.tipo-porton{
+	padding-left: 26px;
+	display: none;
+}
+.cortina-tipos{
+	padding-left: 26px;
+
 }
 .cortinas-par,
 .corredizos-par-1,
@@ -366,7 +371,7 @@ a{
 	margin-top: 34px;
 	font-size: 12;
 	font-weight: normal;
-
+	display: none;
 }
 .corredizos-par-2{
 	margin-bottom: 45px;
@@ -394,7 +399,7 @@ a{
 	margin-left: 26px;
 }
 .container-min-img{
-	cursor: pointer;
+	float: left;
 	padding-left: 7px;
 	padding-bottom: 9px;
 	width: 90px !important;
