@@ -159,7 +159,7 @@ a{
 	margin-left: 53px;
 	height: 209px;
 	background: url(../images/bck-notice.png) no-repeat left top;
-	background-position: -53px 8px;
+	background-position: -39px 8px;
 	background-size: 900px 207px;
 	padding-bottom: 60px;
 }
@@ -180,7 +180,7 @@ a{
 .notice-wrapper img{
 	position: relative;
 	top: -80px !important;
-	left: 18px;
+	left: 34px;
 }
 .notice{
 	width: 425px;
@@ -206,9 +206,13 @@ a{
 }
 #notice-2 h2{
 	color: #66b14f;
+	margin-left: 15px;
 }
 #notice-2 img{
 	top: -100px;
+}
+#notice-2 p{
+	margin-left: 15px;
 }
 /* ESTILO DEL HOME */
 /* ESTILO DE PRODUCTOS*/
