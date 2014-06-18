@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST) && !empty($_POST)){
-	$para = 'info@massanet.com.ar';
+	$para = 'info@cremonesi.com.ar';
 	$titulo = 'Consulta Web - RGD';
 	$mensaje = 'Nombre: ' . $_POST['nombre'] . "\r\n";
 	$mensaje .= 'Telefono: ' . $_POST['telefono'] . "\r\n";
@@ -140,7 +140,7 @@ if(isset($_POST) && !empty($_POST)){
 						Av. Gaona 4526 (1702) - Ciudadela. Bs. As. Argentina - Tel./Fax: (54-11) 4653-5444 / 4052 - info@cremonesi.com.ar<br />
 						Copyright © 2014 . Todos los derechos reservados.
 					</p>
-					<img id="logo-cpa" src="images/logo-cpa.png" alt="Logo Grupo Cremonesi" title="Logo Grupo Cremonesi">
+					<a href="http://www.rgdobrasymontajes.com.ar/" target="_blank"><img id="logo-cpa" src="images/logo-cpa.png" alt="RGD - Grupo Cremonesi" title="RGD - Grupo Cremonesi"></a>
 				</div>
 				<?php if(isset($_POST) && !empty($_POST)): ?>
 					<script type="text/javascript">
